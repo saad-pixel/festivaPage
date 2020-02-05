@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2004FCF23E42B1A00166D68 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2004FCE23E42B1A00166D68 /* Page.swift */; };
+		C2004FD123E42DCB00166D68 /* url.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2004FD023E42DCB00166D68 /* url.swift */; };
+		C2004FD323E47D0B00166D68 /* tabTp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2004FD223E47D0B00166D68 /* tabTp.swift */; };
+		C23314F023E86DAE00528CE5 /* artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23314EF23E86DAE00528CE5 /* artist.swift */; };
+		C2B20C6723E1B43200FDD320 /* Valider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B20C6623E1B43200FDD320 /* Valider.swift */; };
+		C2ECCD6D23E1C9DF00A2A521 /* GoFestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ECCD6C23E1C9DF00A2A521 /* GoFestsView.swift */; };
+		C2F500F023E334ED0056085D /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F500EF23E334ED0056085D /* Link.swift */; };
 		C2FD597623E186A3008BC6C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD597523E186A3008BC6C7 /* AppDelegate.swift */; };
 		C2FD597823E186A3008BC6C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD597723E186A3008BC6C7 /* SceneDelegate.swift */; };
 		C2FD597B23E186A3008BC6C7 /* festivaPage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2FD597923E186A3008BC6C7 /* festivaPage.xcdatamodeld */; };
@@ -14,9 +21,17 @@
 		C2FD597F23E186A5008BC6C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FD597E23E186A5008BC6C7 /* Assets.xcassets */; };
 		C2FD598223E186A5008BC6C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FD598123E186A5008BC6C7 /* Preview Assets.xcassets */; };
 		C2FD598523E186A5008BC6C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FD598323E186A5008BC6C7 /* LaunchScreen.storyboard */; };
+		C2FD598D23E18715008BC6C7 /* GoFestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD598C23E18715008BC6C7 /* GoFestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2004FCE23E42B1A00166D68 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		C2004FD023E42DCB00166D68 /* url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = url.swift; sourceTree = "<group>"; };
+		C2004FD223E47D0B00166D68 /* tabTp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabTp.swift; sourceTree = "<group>"; };
+		C23314EF23E86DAE00528CE5 /* artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = artist.swift; sourceTree = "<group>"; };
+		C2B20C6623E1B43200FDD320 /* Valider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valider.swift; sourceTree = "<group>"; };
+		C2ECCD6C23E1C9DF00A2A521 /* GoFestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoFestsView.swift; sourceTree = "<group>"; };
+		C2F500EF23E334ED0056085D /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
 		C2FD597223E186A3008BC6C7 /* festivaPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = festivaPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FD597523E186A3008BC6C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2FD597723E186A3008BC6C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +41,7 @@
 		C2FD598123E186A5008BC6C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2FD598423E186A5008BC6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2FD598623E186A5008BC6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FD598C23E18715008BC6C7 /* GoFestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoFestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +77,14 @@
 				C2FD597523E186A3008BC6C7 /* AppDelegate.swift */,
 				C2FD597723E186A3008BC6C7 /* SceneDelegate.swift */,
 				C2FD597C23E186A3008BC6C7 /* ContentView.swift */,
+				C2FD598C23E18715008BC6C7 /* GoFestView.swift */,
+				C23314EF23E86DAE00528CE5 /* artist.swift */,
+				C2F500EF23E334ED0056085D /* Link.swift */,
+				C2B20C6623E1B43200FDD320 /* Valider.swift */,
+				C2004FCE23E42B1A00166D68 /* Page.swift */,
+				C2004FD223E47D0B00166D68 /* tabTp.swift */,
+				C2004FD023E42DCB00166D68 /* url.swift */,
+				C2ECCD6C23E1C9DF00A2A521 /* GoFestsView.swift */,
 				C2FD597E23E186A5008BC6C7 /* Assets.xcassets */,
 				C2FD598323E186A5008BC6C7 /* LaunchScreen.storyboard */,
 				C2FD598623E186A5008BC6C7 /* Info.plist */,
@@ -149,10 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F500F023E334ED0056085D /* Link.swift in Sources */,
 				C2FD597B23E186A3008BC6C7 /* festivaPage.xcdatamodeld in Sources */,
+				C2004FD323E47D0B00166D68 /* tabTp.swift in Sources */,
+				C2ECCD6D23E1C9DF00A2A521 /* GoFestsView.swift in Sources */,
+				C23314F023E86DAE00528CE5 /* artist.swift in Sources */,
+				C2FD598D23E18715008BC6C7 /* GoFestView.swift in Sources */,
 				C2FD597623E186A3008BC6C7 /* AppDelegate.swift in Sources */,
+				C2004FCF23E42B1A00166D68 /* Page.swift in Sources */,
 				C2FD597D23E186A3008BC6C7 /* ContentView.swift in Sources */,
+				C2004FD123E42DCB00166D68 /* url.swift in Sources */,
 				C2FD597823E186A3008BC6C7 /* SceneDelegate.swift in Sources */,
+				C2B20C6723E1B43200FDD320 /* Valider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
